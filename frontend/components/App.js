@@ -40,7 +40,8 @@ function App() {
         title={apod.title}
         text={apod.explanation}
         imageURL={apod.url}
-        date={apod.date} />
+        date={apod.date}
+        copyright={apod.copyright} />
     </setion>
   )
 }
